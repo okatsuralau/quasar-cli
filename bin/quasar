@@ -12,6 +12,7 @@ else {
     'init',
     'dev',
     'build',
+    'build-ci',
     'clean',
     'mode',
     'info',
@@ -27,6 +28,7 @@ else {
       const mapToCmd = {
         d: 'dev',
         b: 'build',
+        p: 'build-ci',
         c: 'clean',
         m: 'mode',
         i: 'info',
